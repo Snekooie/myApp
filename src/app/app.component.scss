@@ -1,0 +1,25 @@
+.my1{
+    color: blue;
+    text-align: center;
+    font-size: large;
+}
+.my2{
+    color: red;
+    text-align: center;
+    font-size: small;
+}
+table{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    border-collapse: collapse;
+    margin-top: 8px;
+    width: 100%;
+}
+th,td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
